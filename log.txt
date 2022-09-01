@@ -1,0 +1,92 @@
+2022-08-24 12:04:36,782 Current google-chrome version is 104.0.5112
+2022-08-24 12:04:36,783 Get LATEST driver version for 104.0.5112
+2022-08-24 12:04:36,789 Starting new HTTP connection (1): chromedriver.storage.googleapis.com:80
+2022-08-24 12:04:37,908 http://chromedriver.storage.googleapis.com:80 "GET /LATEST_RELEASE_104.0.5112 HTTP/1.1" 200 13
+2022-08-24 12:04:37,917 Driver [C:\Users\anesu\.wdm\drivers\chromedriver\win32\104.0.5112.79\chromedriver.exe] found in cache
+2022-08-24 12:04:38,449 POST http://127.0.0.1:15649/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--no-sandbox", "--log-level=3"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--no-sandbox", "--log-level=3"]}}}
+2022-08-24 12:04:38,449 Starting new HTTP connection (1): 127.0.0.1:15649
+2022-08-24 12:04:40,723 http://127.0.0.1:15649 "POST /session HTTP/1.1" 200 791
+2022-08-24 12:04:40,724 Finished Request
+2022-08-24 12:04:40,724 POST http://127.0.0.1:15649/session/aebd2f843010f568b0531d47ff135fa1/url {"url": "https://login.yahoo.com/?.src=ym&pspid=2023538075&activity=ybar-mail&.lang=en-US&.intl=us&.done=https%3A%2F%2Fmail.yahoo.com%2Fd%2F%3Fpspid%3D2023538075%26activity%3Dybar-mail"}
+2022-08-24 12:04:58,291 http://127.0.0.1:15649 "POST /session/aebd2f843010f568b0531d47ff135fa1/url HTTP/1.1" 200 14
+2022-08-24 12:04:58,292 Finished Request
+2022-08-24 12:05:00,298 POST http://127.0.0.1:15649/session/aebd2f843010f568b0531d47ff135fa1/element {"using": "xpath", "value": "//*[@id=\"login-username\"]"}
+2022-08-24 12:05:00,320 http://127.0.0.1:15649 "POST /session/aebd2f843010f568b0531d47ff135fa1/element HTTP/1.1" 200 88
+2022-08-24 12:05:00,321 Finished Request
+2022-08-24 12:05:00,321 POST http://127.0.0.1:15649/session/aebd2f843010f568b0531d47ff135fa1/element/27e64f2f-d29c-49df-a7b0-0f5d4688fe23/value {"text": "anesuchiodza", "value": ["a", "n", "e", "s", "u", "c", "h", "i", "o", "d", "z", "a"], "id": "27e64f2f-d29c-49df-a7b0-0f5d4688fe23"}
+2022-08-24 12:05:00,412 http://127.0.0.1:15649 "POST /session/aebd2f843010f568b0531d47ff135fa1/element/27e64f2f-d29c-49df-a7b0-0f5d4688fe23/value HTTP/1.1" 200 14
+2022-08-24 12:05:00,413 Finished Request
+2022-08-24 12:05:00,413 POST http://127.0.0.1:15649/session/aebd2f843010f568b0531d47ff135fa1/element {"using": "xpath", "value": "//*[@id=\"login-signin\"]"}
+2022-08-24 12:05:00,981 http://127.0.0.1:15649 "POST /session/aebd2f843010f568b0531d47ff135fa1/element HTTP/1.1" 200 88
+2022-08-24 12:05:00,981 Finished Request
+2022-08-24 12:05:00,982 POST http://127.0.0.1:15649/session/aebd2f843010f568b0531d47ff135fa1/element/e6c2980c-4072-4db4-b18c-054217ef02de/click {"id": "e6c2980c-4072-4db4-b18c-054217ef02de"}
+2022-08-24 12:05:01,064 http://127.0.0.1:15649 "POST /session/aebd2f843010f568b0531d47ff135fa1/element/e6c2980c-4072-4db4-b18c-054217ef02de/click HTTP/1.1" 200 14
+2022-08-24 12:05:01,064 Finished Request
+2022-08-24 12:05:04,077 POST http://127.0.0.1:15649/session/aebd2f843010f568b0531d47ff135fa1/element {"using": "xpath", "value": "//*[@id=\"login-passwd\"]"}
+2022-08-24 12:05:08,063 http://127.0.0.1:15649 "POST /session/aebd2f843010f568b0531d47ff135fa1/element HTTP/1.1" 200 88
+2022-08-24 12:05:08,063 Finished Request
+2022-08-24 12:05:08,064 POST http://127.0.0.1:15649/session/aebd2f843010f568b0531d47ff135fa1/element/1fc8ad6c-4bb9-4b71-9974-4c8d7546d585/value {"text": "zipassW0rd123!", "value": ["z", "i", "p", "a", "s", "s", "W", "0", "r", "d", "1", "2", "3", "!"], "id": "1fc8ad6c-4bb9-4b71-9974-4c8d7546d585"}
+2022-08-24 12:05:08,188 http://127.0.0.1:15649 "POST /session/aebd2f843010f568b0531d47ff135fa1/element/1fc8ad6c-4bb9-4b71-9974-4c8d7546d585/value HTTP/1.1" 200 14
+2022-08-24 12:05:08,188 Finished Request
+2022-08-24 12:05:08,189 POST http://127.0.0.1:15649/session/aebd2f843010f568b0531d47ff135fa1/element {"using": "xpath", "value": "//*[@id=\"login-signin\"]"}
+2022-08-24 12:05:08,200 http://127.0.0.1:15649 "POST /session/aebd2f843010f568b0531d47ff135fa1/element HTTP/1.1" 200 88
+2022-08-24 12:05:08,201 Finished Request
+2022-08-24 12:05:08,603 POST http://127.0.0.1:15649/session/aebd2f843010f568b0531d47ff135fa1/element/d3f4682e-bb4b-4abd-9c1f-32245d6a78cb/click {"id": "d3f4682e-bb4b-4abd-9c1f-32245d6a78cb"}
+2022-08-24 12:05:35,692 http://127.0.0.1:15649 "POST /session/aebd2f843010f568b0531d47ff135fa1/element/d3f4682e-bb4b-4abd-9c1f-32245d6a78cb/click HTTP/1.1" 200 14
+2022-08-24 12:05:35,692 Finished Request
+2022-08-24 12:05:40,707 POST http://127.0.0.1:15649/session/aebd2f843010f568b0531d47ff135fa1/window/maximize {}
+2022-08-24 12:05:41,021 http://127.0.0.1:15649 "POST /session/aebd2f843010f568b0531d47ff135fa1/window/maximize HTTP/1.1" 200 51
+2022-08-24 12:05:41,022 Finished Request
+2022-08-24 12:05:41,022 POST http://127.0.0.1:15649/session/aebd2f843010f568b0531d47ff135fa1/element {"using": "xpath", "value": "//*[@id=\"mail-search\"]/div/div/div[1]/ul/li/div/div/input[1]"}
+2022-08-24 12:05:41,399 http://127.0.0.1:15649 "POST /session/aebd2f843010f568b0531d47ff135fa1/element HTTP/1.1" 200 88
+2022-08-24 12:05:41,399 Finished Request
+2022-08-24 12:05:41,400 POST http://127.0.0.1:15649/session/aebd2f843010f568b0531d47ff135fa1/element/55cd64a8-67cb-4ba2-a809-43ce2ff82f11/value {"text": "Welcome to email", "value": ["W", "e", "l", "c", "o", "m", "e", " ", "t", "o", " ", "e", "m", "a", "i", "l"], "id": "55cd64a8-67cb-4ba2-a809-43ce2ff82f11"}
+2022-08-24 12:05:42,950 http://127.0.0.1:15649 "POST /session/aebd2f843010f568b0531d47ff135fa1/element/55cd64a8-67cb-4ba2-a809-43ce2ff82f11/value HTTP/1.1" 200 14
+2022-08-24 12:05:42,951 Finished Request
+2022-08-24 12:05:42,951 POST http://127.0.0.1:15649/session/aebd2f843010f568b0531d47ff135fa1/element {"using": "xpath", "value": "//*[@id=\"mail-search\"]/div/button"}
+2022-08-24 12:05:42,991 http://127.0.0.1:15649 "POST /session/aebd2f843010f568b0531d47ff135fa1/element HTTP/1.1" 200 88
+2022-08-24 12:05:42,992 Finished Request
+2022-08-24 12:05:43,403 POST http://127.0.0.1:15649/session/aebd2f843010f568b0531d47ff135fa1/element/6991e2c6-945f-4c3c-a596-ed2a2bc77a79/click {"id": "6991e2c6-945f-4c3c-a596-ed2a2bc77a79"}
+2022-08-24 12:05:44,006 http://127.0.0.1:15649 "POST /session/aebd2f843010f568b0531d47ff135fa1/element/6991e2c6-945f-4c3c-a596-ed2a2bc77a79/click HTTP/1.1" 200 14
+2022-08-24 12:05:44,006 Finished Request
+2022-08-24 12:05:44,007 POST http://127.0.0.1:15649/session/aebd2f843010f568b0531d47ff135fa1/element {"using": "xpath", "value": "//*[@id=\"mail-app-component\"]/div/div/div/div[3]/div/div/div[2]/div/div[1]/ul/li[2]/a"}
+2022-08-24 12:05:44,055 http://127.0.0.1:15649 "POST /session/aebd2f843010f568b0531d47ff135fa1/element HTTP/1.1" 404 1091
+2022-08-24 12:05:44,055 Finished Request
+2022-08-24 12:05:44,563 POST http://127.0.0.1:15649/session/aebd2f843010f568b0531d47ff135fa1/element {"using": "xpath", "value": "//*[@id=\"mail-app-component\"]/div/div/div/div[3]/div/div/div[2]/div/div[1]/ul/li[2]/a"}
+2022-08-24 12:05:44,833 http://127.0.0.1:15649 "POST /session/aebd2f843010f568b0531d47ff135fa1/element HTTP/1.1" 200 88
+2022-08-24 12:05:44,833 Finished Request
+2022-08-24 12:05:45,246 POST http://127.0.0.1:15649/session/aebd2f843010f568b0531d47ff135fa1/element/67c028d6-5ad3-46de-8ee9-5fe1e54d7b82/click {"id": "67c028d6-5ad3-46de-8ee9-5fe1e54d7b82"}
+2022-08-24 12:05:46,209 http://127.0.0.1:15649 "POST /session/aebd2f843010f568b0531d47ff135fa1/element/67c028d6-5ad3-46de-8ee9-5fe1e54d7b82/click HTTP/1.1" 200 14
+2022-08-24 12:05:46,210 Finished Request
+2022-08-24 12:05:46,211 GET http://127.0.0.1:15649/session/aebd2f843010f568b0531d47ff135fa1/window/rect {}
+2022-08-24 12:05:46,295 http://127.0.0.1:15649 "GET /session/aebd2f843010f568b0531d47ff135fa1/window/rect HTTP/1.1" 200 51
+2022-08-24 12:05:46,295 Finished Request
+2022-08-24 12:05:46,295 POST http://127.0.0.1:15649/session/aebd2f843010f568b0531d47ff135fa1/execute/sync {"script": "return document.body.offsetWidth", "args": []}
+2022-08-24 12:05:46,308 http://127.0.0.1:15649 "POST /session/aebd2f843010f568b0531d47ff135fa1/execute/sync HTTP/1.1" 200 14
+2022-08-24 12:05:46,309 Finished Request
+2022-08-24 12:05:46,309 POST http://127.0.0.1:15649/session/aebd2f843010f568b0531d47ff135fa1/execute/sync {"script": "return document.body.parentNode.scrollHeight", "args": []}
+2022-08-24 12:05:46,316 http://127.0.0.1:15649 "POST /session/aebd2f843010f568b0531d47ff135fa1/execute/sync HTTP/1.1" 200 13
+2022-08-24 12:05:46,317 Finished Request
+2022-08-24 12:05:46,317 POST http://127.0.0.1:15649/session/aebd2f843010f568b0531d47ff135fa1/execute/sync {"script": "return document.body.clientWidth", "args": []}
+2022-08-24 12:05:46,334 http://127.0.0.1:15649 "POST /session/aebd2f843010f568b0531d47ff135fa1/execute/sync HTTP/1.1" 200 14
+2022-08-24 12:05:46,335 Finished Request
+2022-08-24 12:05:46,335 POST http://127.0.0.1:15649/session/aebd2f843010f568b0531d47ff135fa1/execute/sync {"script": "return window.innerHeight", "args": []}
+2022-08-24 12:05:46,359 http://127.0.0.1:15649 "POST /session/aebd2f843010f568b0531d47ff135fa1/execute/sync HTTP/1.1" 200 13
+2022-08-24 12:05:46,360 Finished Request
+2022-08-24 12:05:46,360 POST http://127.0.0.1:15649/session/aebd2f843010f568b0531d47ff135fa1/execute/sync {"script": "window.scrollTo(0, 0)", "args": []}
+2022-08-24 12:05:46,370 http://127.0.0.1:15649 "POST /session/aebd2f843010f568b0531d47ff135fa1/execute/sync HTTP/1.1" 200 14
+2022-08-24 12:05:46,370 Finished Request
+2022-08-24 12:05:48,374 GET http://127.0.0.1:15649/session/aebd2f843010f568b0531d47ff135fa1/screenshot {}
+2022-08-24 12:05:49,560 http://127.0.0.1:15649 "GET /session/aebd2f843010f568b0531d47ff135fa1/screenshot HTTP/1.1" 200 369868
+2022-08-24 12:05:49,562 Finished Request
+2022-08-24 12:05:49,751 STREAM b'IHDR' 16 13
+2022-08-24 12:05:49,753 STREAM b'sRGB' 41 1
+2022-08-24 12:05:49,753 STREAM b'IDAT' 54 8192
+2022-08-24 12:05:49,762 GET http://127.0.0.1:15649/session/aebd2f843010f568b0531d47ff135fa1/screenshot {}
+2022-08-24 12:05:50,120 http://127.0.0.1:15649 "GET /session/aebd2f843010f568b0531d47ff135fa1/screenshot HTTP/1.1" 200 369868
+2022-08-24 12:05:50,123 Finished Request
+2022-08-24 12:05:50,135 STREAM b'IHDR' 16 13
+2022-08-24 12:05:50,135 STREAM b'sRGB' 41 1
+2022-08-24 12:05:50,135 STREAM b'IDAT' 54 8192
+2022-08-24 12:05:53,461 STREAM b'IHDR' 16 13
+2022-08-24 12:05:53,462 STREAM b'IDAT' 41 65536
