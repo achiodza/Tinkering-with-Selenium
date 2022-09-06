@@ -19,10 +19,10 @@ def yahoLogin():
     logging.basicConfig(filename="log.txt", level=logging.DEBUG,
                         format="%(asctime)s %(message)s", filemode="w")
     # Complete these 3 fields ==================
-    USERNAME = 'anesuchiodza'
+    USERNAME = 'emailaddress'
 
 
-    PASSWORD = 'zipassW0rd123!'
+    PASSWORD = 'yourpasswordhere!'
     SEARCH = 'Welcome to email'
     # ==========================================
     fscreenshot = Screenshot.Screenshot()
